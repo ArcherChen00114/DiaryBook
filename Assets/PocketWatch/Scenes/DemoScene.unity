@@ -1,0 +1,1736 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1.05
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 512
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 8900000, guid: f296f7ff2503f434bb552ba23cac9883, type: 3}
+  m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0.18175772, g: 0.22742406, b: 0.3074207, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 1
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 164e666eb595dfc42a58859ba0a62ef7, type: 2}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &59914017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5024327766959329642, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_01_Hands_02_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024327766959329642, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.135
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 58d6b45cbeb8af948a1b091eb3970d4e, type: 3}
+--- !u!1001 &332458404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1506468257458368793, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_01_Hands_01_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506468257458368793, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c5947a692fa22604b86730e3ba55aa56, type: 3}
+--- !u!1001 &452023419
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3449185123000838455, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_02_Hands_01_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 3449185123000838455, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52964c4366d3ed54ab6e079d8d738b8b, type: 3}
+--- !u!1001 &583901376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 4527013966840638440, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Silver_Hands_01_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 4527013966840638440, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 88da61ff0f5543b4ca45b8d8a42cc832, type: 3}
+--- !u!1 &705507993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705507995}
+  - component: {fileID: 705507994}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &705507994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 1
+    m_NormalBias: 0.5
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &705507995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.36693716, y: -0.19586772, z: 0.079334594, w: 0.90592444}
+  m_LocalPosition: {x: 6.75, y: 5.64, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 44.1, y: -24.4, z: 0}
+--- !u!1001 &744803591
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.405
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337739917079437, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337740316647579, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999769
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337740316647579, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337740316647579, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0068067997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337740316647579, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636337740316647579, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 3449185123000838455, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_02_Hands_02_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 3449185123000838455, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d918007c27faaed4eb9a6c6edf213d19, type: 3}
+--- !u!1001 &844833840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.675
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 3862117722199748946, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 4527013966840638440, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Silver_Hands_02_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 4527013966840638440, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 227ae98e7393f304ba273ee15ab404f8, type: 3}
+--- !u!1 &963194225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963194228}
+  - component: {fileID: 963194227}
+  - component: {fileID: 963194226}
+  - component: {fileID: 963194230}
+  - component: {fileID: 963194229}
+  m_Layer: 8
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &963194226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+--- !u!20 &963194227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 100
+  field of view: 40
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &963194228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.16807602, y: -0.104603834, z: 0.017615044, w: 0.98005015}
+  m_LocalPosition: {x: 0.393, y: 0.11, z: -0.259}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 19.459, y: -12.191, z: -0.039}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 64d3f3d250a51fb4888250bda9e7f63d, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 963194228}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 3
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
+--- !u!1001 &1207241581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695011253263599860, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Silver_Hands_01_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695011253263599860, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ba0e09f46209a643825fa59c64dcb7c, type: 3}
+--- !u!1001 &1442133413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.405
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904978064615128520, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_02_Hands_02_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904978064615128520, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4bbccb7d523939c46bd87b5883f0b366, type: 3}
+--- !u!1001 &1656772647
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5024327766959329642, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_01_Hands_01_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024327766959329642, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688661881700371408, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 19da7d4ef04e0e2408bae73e8778de43, type: 3}
+--- !u!1001 &1966115371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 8133227088920962930, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904978064615128520, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_02_Hands_01_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904978064615128520, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 260b99edf8cf0114a9cb5e557da120eb, type: 3}
+--- !u!1001 &2004995387
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.675
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026173264617099854, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695011253263599860, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Silver_Hands_02_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695011253263599860, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f126acebd026bb41b589de28a917f83, type: 3}
+--- !u!1001 &2134273407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1506468257458368793, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_01_Hands_02_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506468257458368793, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.135
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279908049408060323, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 13f4c5d404a2a3144bbaf92b2e38cad2, type: 3}
+--- !u!1001 &47839411934886391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5057922449098620561, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Silver_Dirty_Hands_02_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057922449098620561, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.215
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 5582925354547242027, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bdb699580742e234ba59a29aab88ab43, type: 3}
+--- !u!1001 &573130121907447999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612054966050979762, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425323672900150536, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Silver_Dirty_Hands_01_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 5425323672900150536, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 41d816d2468e39247ace21661e172c45, type: 3}
+--- !u!1001 &731300540680997223
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185161876981543441, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 5530057425707706539, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_Dirty_Hands_01_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 5530057425707706539, guid: 6616b89a997656541998a47de6becc54, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6616b89a997656541998a47de6becc54, type: 3}
+--- !u!1001 &3626339599837366828
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 107844138442290816, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_Dirty_Hands_02_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 107844138442290816, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 735479823451139130, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4fd4365d1d741f49ae2b287c4902cbc, type: 3}
+--- !u!1001 &4123874508699966129
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2312490291654668782, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_Dirty_Hands_01_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312490291654668782, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124456936467983188, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ff114456bc23de449e9748dd4f258ce, type: 3}
+--- !u!1001 &5107330687962490395
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5087005007971586889, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Gold_Dirty_Hands_02_RomanNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087005007971586889, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607963085831129587, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e312fc412813c48448bd96c8386d47bb, type: 3}
+--- !u!1001 &5120178501390077552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7428998279835032097, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Silver_Dirty_Hands_01_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 7428998279835032097, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805523478940893339, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3de07fb6f5434044abce3b97e553f01b, type: 3}
+--- !u!1001 &6278666875281155132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6223251127579420376, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_Name
+      value: PocketWatch_Silver_Dirty_Hands_02_ArabicNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223251127579420376, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.215
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77848274
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3544498
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4598786
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.23841493
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -19.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 6707756782923283554, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 47.672
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe991113d652454498ccaf4d54eb4079, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 963194228}
+  - {fileID: 705507995}
+  - {fileID: 1656772647}
+  - {fileID: 332458404}
+  - {fileID: 59914017}
+  - {fileID: 2134273407}
+  - {fileID: 1966115371}
+  - {fileID: 452023419}
+  - {fileID: 1442133413}
+  - {fileID: 744803591}
+  - {fileID: 1207241581}
+  - {fileID: 583901376}
+  - {fileID: 2004995387}
+  - {fileID: 844833840}
+  - {fileID: 731300540680997223}
+  - {fileID: 5107330687962490395}
+  - {fileID: 4123874508699966129}
+  - {fileID: 3626339599837366828}
+  - {fileID: 573130121907447999}
+  - {fileID: 47839411934886391}
+  - {fileID: 5120178501390077552}
+  - {fileID: 6278666875281155132}
