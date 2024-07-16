@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/EndlessBook/Demos/Demo 02/Scenes/Demo Temp.unity
+    path: Assets/Scenes/Demo Temp.unity
     guid: 03293639b0bd66d4299c082c29e49d00
   m_configObjects: {}
