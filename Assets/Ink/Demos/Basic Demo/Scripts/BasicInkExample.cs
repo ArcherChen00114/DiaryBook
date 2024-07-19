@@ -170,7 +170,9 @@ public class BasicInkExample : MonoBehaviour {
 	void CreateNewPage(){
 			GameObject newPage= Instantiate(pagePrefab);
 			Camera RenderCamera = newPage.GetComponentInChildren<Camera>();
-			RenderCamera.targetTexture = new RenderTexture(8192, 8192, 24);
+			RenderTexture renderTexture = new RenderTexture(2048, 2048, 24);
+        	renderTexture.antiAliasing = 8; // 设置抗锯齿
+			RenderCamera.targetTexture = renderTexture;
 			RenderCamera.targetTexture.filterMode = FilterMode.Point;
 			RenderCamera.targetTexture.name = "PageView_0" + (canvasNum+2);
 			Material PageMaterial = new Material(BaseMaterial);
